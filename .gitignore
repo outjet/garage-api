@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env & secrets
+.env
+duckdns.ini
+*.pem
+*.key
+*.crt
+
+# Venvs/sockets/logs
+garage_env/
+*.sock
+*.log
+*.sqlite
+
+# OS/Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

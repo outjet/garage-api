@@ -1,0 +1,9 @@
+Flask==3.0.3
+Flask-HTTPAuth==4.8.0
+Flask-Cors==4.0.1
+gunicorn==22.0.0
+python-dotenv==1.0.1
+PyJWT==2.9.0
+# On Raspberry Pi OS (Bullseye/Bookworm), use the system RPi.GPIO package.
+# If you *must* pip it (e.g., dev laptop with gpio mock), uncomment:
+# RPi.GPIO==0.7.1
